@@ -1,0 +1,17 @@
+<app-nav-bar></app-nav-bar>
+
+<ion-content>
+  <ion-grid>
+    <ion-row >
+      <ion-col size-lg="4" size-md="6" size-xs="12" *ngFor="let news of newsList let i = index">
+        <app-news-card
+        [tit]="news.tit"
+        [des]="news.des"
+        [img]="news.img"
+      ></app-news-card>
+      
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+

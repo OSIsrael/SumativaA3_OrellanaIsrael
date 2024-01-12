@@ -1,0 +1,7 @@
+{
+  "name": "OrellanaIsraelSumativaA3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
